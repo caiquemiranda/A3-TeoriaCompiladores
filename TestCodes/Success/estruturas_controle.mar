@@ -1,0 +1,25 @@
+// Teste de estruturas de controle: if, while, for
+
+int x = 5;
+int y = 10;
+
+// Teste if-else
+se (x < y) {
+    imprima(x);
+} senao {
+    imprima(y);
+}
+
+// Teste while
+int contador = 0;
+enquanto (contador < 3) {
+    imprima(contador);
+    contador = contador + 1;
+}
+
+// Teste for - usando assignStmt no forInit
+int i;
+para (i = 0; i < 3; i = i + 1) {
+    imprima(i);
+}
+

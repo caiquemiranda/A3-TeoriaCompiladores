@@ -1,0 +1,9 @@
+// ERRO: Sintaxe inválida no for - falta ponto e vírgula
+
+int i;
+
+// Falta ponto e vírgula após a inicialização
+para (i = 0 i < 5; i = i + 1) {
+    imprima(i);
+}
+

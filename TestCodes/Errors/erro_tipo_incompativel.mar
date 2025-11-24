@@ -1,0 +1,10 @@
+// ERRO: Tentativa de atribuir tipo incompatível
+
+int a = 10;
+bool b = true;
+
+// Tentando atribuir boolean a int
+a = b;
+
+imprima(a);
+

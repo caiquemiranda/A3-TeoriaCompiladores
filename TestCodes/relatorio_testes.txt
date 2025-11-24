@@ -1,0 +1,151 @@
+Relatorio de Testes - Compilador Marte 
+Gerado em: 24/11/2025 18:49:44,38 
+ 
+======================================== 
+ 
+TESTES DE SUCESSO 
+======================================== 
+ 
+Testando: calculadora.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Executando o programa Marte...
+----------------------------------
+15
+5
+50
+2
+
+----------------------------------
+Execução finalizada.
+[OK] Compilacao bem-sucedida 
+ 
+Testando: estruturas_controle.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Executando o programa Marte...
+----------------------------------
+5
+0
+1
+2
+0
+1
+2
+
+----------------------------------
+Execução finalizada.
+[OK] Compilacao bem-sucedida 
+ 
+Testando: operacoes_basicas.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Executando o programa Marte...
+----------------------------------
+10
+3.14
+true
+15
+6.28
+false
+
+----------------------------------
+Execução finalizada.
+[OK] Compilacao bem-sucedida 
+ 
+Testando: precedencia.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Executando o programa Marte...
+----------------------------------
+20
+14
+10
+8
+
+----------------------------------
+Execução finalizada.
+[OK] Compilacao bem-sucedida 
+ 
+ 
+======================================== 
+TESTES DE ERROS 
+======================================== 
+ 
+Testando: erro_expressao_invalida.mar 
+---------------------------------------- 
+Erro sintático na linha 6, coluna 8: mismatched input ';' expecting {'(', '-', '!', BOOL_LIT, ID, NUMBER}
+Compilação cancelada devido a erros sintáticos.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_for_sintaxe_invalida.mar 
+---------------------------------------- 
+Erro sintático na linha 6, coluna 12: missing ';' at 'i'
+Compilação cancelada devido a erros sintáticos.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_leia_variavel_nao_declarada.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Resultado.java:8: error: cannot find symbol
+  b = scanner.next();
+  ^
+  symbol:   variable b
+  location: class Resultado
+1 error
+Erro: O código Java gerado contém erros e não pôde ser compilado.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_palavra_reservada.mar 
+---------------------------------------- 
+Erro sintático na linha 3, coluna 4: mismatched input 'se' expecting ID
+Erro sintático na linha 4, coluna 6: mismatched input 'enquanto' expecting ID
+Erro sintático na linha 4, coluna 15: mismatched input '=' expecting '('
+Erro sintático na linha 6, coluna 8: mismatched input 'se' expecting {'(', '-', '!', BOOL_LIT, ID, NUMBER}
+Erro sintático na linha 7, coluna 8: mismatched input 'enquanto' expecting {'(', '-', '!', BOOL_LIT, ID, NUMBER}
+Compilação cancelada devido a erros sintáticos.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_parenteses_nao_fechados.mar 
+---------------------------------------- 
+Erro sintático na linha 6, coluna 10: no viable alternative at input 'se(a<b{'
+Erro sintático na linha 6, coluna 6: mismatched input '<' expecting '='
+Erro sintático na linha 6, coluna 10: mismatched input '{' expecting '='
+Compilação cancelada devido a erros sintáticos.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_sintaxe_faltando_ponto_virgula.mar 
+---------------------------------------- 
+Erro sintático na linha 4, coluna 0: missing ';' at 'int'
+Compilação cancelada devido a erros sintáticos.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_tipo_incompativel.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Resultado.java:9: error: incompatible types: boolean cannot be converted to int
+  a = b;
+      ^
+1 error
+Erro: O código Java gerado contém erros e não pôde ser compilado.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 
+Testando: erro_variavel_nao_declarada.mar 
+---------------------------------------- 
+--- Código Java gerado com sucesso. ---
+Compilando o arquivo Resultado.java...
+Resultado.java:9: error: cannot find symbol
+  int resultado = (a + c);
+                       ^
+  symbol:   variable c
+  location: class Resultado
+1 error
+Erro: O código Java gerado contém erros e não pôde ser compilado.
+[ATENCAO] Este teste deveria falhar mas compilou! 
+ 

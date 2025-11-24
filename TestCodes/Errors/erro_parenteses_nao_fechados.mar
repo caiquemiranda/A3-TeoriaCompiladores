@@ -1,0 +1,9 @@
+// ERRO: Parênteses não fechados
+
+int a = 10;
+int b = 20;
+
+se (a < b {
+    imprima(a);
+}
+

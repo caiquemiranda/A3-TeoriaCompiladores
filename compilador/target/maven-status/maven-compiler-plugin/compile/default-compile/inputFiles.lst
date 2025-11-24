@@ -1,9 +1,7 @@
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteListener.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteParser.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteBaseVisitor.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\src\main\java\com\mycompany\compilador\MarteCustomVisitor.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteLexer.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\src\main\java\com\mycompany\compilador\MarteErrorListener.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteVisitor.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\src\main\java\com\mycompany\compilador\CompiladorMarte.java
-C:\Users\Arthur\Documents\NetBeansProjects\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteBaseListener.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteVisitor.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteBaseListener.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteListener.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteLexer.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteParser.java
+C:\a3\A3-TeoriaCompiladores\compilador\target\generated-sources\antlr4\com\mycompany\compilador\MarteBaseVisitor.java
+C:\a3\A3-TeoriaCompiladores\compilador\src\main\java\com\mycompany\compilador\CompiladorMarte.java
