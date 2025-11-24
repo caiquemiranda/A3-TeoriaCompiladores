@@ -1,0 +1,8 @@
+// ERRO: Uso incorreto de palavra reservada
+
+int se = 10;
+float enquanto = 3.14;
+
+imprima(se);
+imprima(enquanto);
+

@@ -1,0 +1,10 @@
+// ERRO: Tentativa de usar variável não declarada
+
+int a = 10;
+int b = 20;
+
+// Variável 'c' não foi declarada
+int resultado = a + c;
+
+imprima(resultado);
+

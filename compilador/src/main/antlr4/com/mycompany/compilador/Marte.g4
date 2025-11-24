@@ -55,12 +55,12 @@ forStmt
 
 forInit
   : declaration
-  | assignStmt
+  | ID '=' expr
   | PASSE
   ;
 
 forStep
-  : assignStmt
+  : ID '=' expr
   | PASSE
   ;
 

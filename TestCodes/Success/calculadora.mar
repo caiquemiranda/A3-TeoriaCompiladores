@@ -1,0 +1,22 @@
+// Calculadora Simples em Marte
+// Este programa demonstra operações matemáticas básicas
+
+int num1;
+int num2;
+int resultado;
+
+leia(num1);
+leia(num2);
+
+resultado = num1 + num2;
+imprima(resultado);
+
+resultado = num1 - num2;
+imprima(resultado);
+
+resultado = num1 * num2;
+imprima(resultado);
+
+resultado = num1 / num2;
+imprima(resultado);
+

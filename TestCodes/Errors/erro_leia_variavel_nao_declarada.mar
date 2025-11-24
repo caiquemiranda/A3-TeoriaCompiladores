@@ -1,0 +1,9 @@
+// ERRO: Tentativa de ler variável não declarada
+
+int a = 10;
+
+// Tentando ler variável 'b' que não foi declarada
+leia(b);
+
+imprima(a);
+

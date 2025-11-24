@@ -1,0 +1,17 @@
+// Teste de operações básicas e tipos de variáveis
+
+int a = 10;
+float b = 3.14;
+bool c = true;
+
+imprima(a);
+imprima(b);
+imprima(c);
+
+a = a + 5;
+b = b * 2.0;
+c = false;
+
+imprima(a);
+imprima(b);
+imprima(c);

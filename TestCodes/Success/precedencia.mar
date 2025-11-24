@@ -1,0 +1,23 @@
+// Teste de precedência de operadores matemáticos
+
+int a = 2;
+int b = 3;
+int c = 4;
+int resultado;
+
+// Deve calcular: (2 + 3) * 4 = 20
+resultado = (a + b) * c;
+imprima(resultado);
+
+// Deve calcular: 2 + 3 * 4 = 14 (multiplicação primeiro)
+resultado = a + b * c;
+imprima(resultado);
+
+// Deve calcular: 2 * 3 + 4 = 10
+resultado = a * b + c;
+imprima(resultado);
+
+// Teste com divisão e módulo
+resultado = a + b * c / 2;
+imprima(resultado);
+
